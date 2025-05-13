@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import API_BASE from '@/app/services/api';
 
 interface propAlbuns {
-    id: string;
+    id: number;
     album: string;
     imagem?: string;
     categoria: string;
